@@ -1,0 +1,86 @@
+{
+    "host_name": [
+        "57a216425fde7af6d437e6dbe98575387f758cf85ee235196e15b5c74396"
+    ],
+    "user_name": [
+        "John Doe"
+    ],
+    "user_id": [
+        "user_9"
+    ],
+    "session_leader_name": [
+        "sh"
+    ],
+    "event_modules": [
+        "file",
+        "network",
+        "process"
+    ],
+    "event_categories": [
+        "java"
+    ],
+    "network_processes": [
+        "file",
+        "network",
+        "process"
+    ],
+    "network_actions": [
+        "connection_accepted",
+        "connection_attempted",
+        "disconnect_received"
+    ],
+    "network_protocols": [
+        "tcp"
+    ],
+    "network_ports": [
+        2181,
+        9092,
+        9093
+    ],
+    "source_ips": [
+        "1c16a7a67c9dd5d32553ae36b2fabb23cffab379967a4ba18e116d243b22b32",
+        "1d7313a0bf024e8fe139abdf543a519e92c991993faf8e6842ba22276f3427",
+        "597bdba341fcd565271b39d15a9dafd53127e7d047ba38e3c3e268594e"
+    ],
+    "destination_ips": [
+        "1c16a7a67c9dd5d32553ae36b2fabb23cffab379967a4ba18e116d243b22b32",
+        "1d7313a0bf024e8fe139abdf543a519e92c991993faf8e6842ba22276f3427"
+    ],
+    "file_processes": [
+        "java"
+    ],
+    "file_actions": [
+        "deletion",
+        "rename",
+        "read",
+        "write"
+    ],
+    "file_paths": [
+        "/tmp/hsperfdata_appuser/24",
+        "/tmp/hsperfdata_appuser/108",
+        "/kafka/data/meta.properties"
+    ],
+    "num_file_deletions": 2,
+    "num_file_modifications": 8,
+    "parent_child_process_combinations": [
+        "kafka-run-class->kafka-run-class",
+        "kafka-run-class->dirname",
+        "bash->bash",
+        "bash->dub",
+        "bash->dub->class->uname",
+        "testcontainers_start.sh->java",
+        "testcontainers_start.sh->kafka-run-class",
+        "bash->id",
+        "zookeeper-server-start->dirname",
+        "testcontainers_start.sh->bash",
+        "testcontainers_start.sh->testcontainers_start.sh",
+        "sh->testcontainers_start.sh",
+        "sh->sleep"
+    ],
+    "num_non_interactive_processes": 123,
+    "long_running_processes": [
+        "sh",
+        "testcontainers_start.sh",
+        "java"
+    ]
+}

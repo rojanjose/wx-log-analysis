@@ -1,0 +1,3 @@
+pandas
+presto-python-client
+python-dotenv

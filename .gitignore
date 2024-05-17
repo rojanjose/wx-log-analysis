@@ -1,0 +1,7 @@
+.env
+.crt
+.pem
+.cer
+
+# Directories
+p312env

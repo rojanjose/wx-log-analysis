@@ -1,0 +1,30 @@
+{
+	"input": "your-prompt-string",
+	"parameters": {
+		"decoding_method": "greedy",
+		"max_new_tokens": 200,
+		"min_new_tokens": 0,
+		"stop_sequences": [],
+		"repetition_penalty": 1
+	},
+	"model_id": "meta-llama/llama-3-70b-instruct",
+	"project_id": "your-project-id",
+	"moderations": {
+		"hap": {
+			"input": {
+				"enabled": true,
+				"threshold": 0.5,
+				"mask": {
+					"remove_entity_value": true
+				}
+			},
+			"output": {
+				"enabled": true,
+				"threshold": 0.5,
+				"mask": {
+					"remove_entity_value": true
+				}
+			}
+		}
+	}
+}
